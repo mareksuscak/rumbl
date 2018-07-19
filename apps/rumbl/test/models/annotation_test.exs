@@ -1,7 +1,7 @@
 defmodule Rumbl.AnnotationTest do
   use Rumbl.ModelCase
 
-  alias Rumbl.Annotation
+  alias RumblWeb.Annotation
 
   @valid_attrs %{at: 42, body: "some content"}
   @invalid_attrs %{}

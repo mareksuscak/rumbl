@@ -1,7 +1,7 @@
 defmodule Rumbl.CategoryTest do
   use Rumbl.ModelCase
 
-  alias Rumbl.Category
+  alias RumblWeb.Category
 
   @valid_attrs %{name: "some content"}
   @invalid_attrs %{}

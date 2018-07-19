@@ -8,7 +8,7 @@ use Mix.Config
 # file or create a script for recreating it, since it's
 # kept out of version control and might be hard to recover
 # or recreate for your teammates (or you later on).
-config :rumbl, Rumbl.Endpoint,
+config :rumbl, RumblWeb.Endpoint,
   secret_key_base: "aWX8YB0oniLKS6w9NOr/dMkmrCsouOo7Mn80y55/opnnXIg5QeVbdop8/iCbI530"
 
 # Configure your database
